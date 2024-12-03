@@ -14,7 +14,7 @@ export default function Footer() {
             <h5>Home</h5>
           </nav>
         </div>
-        <p className="text-center text-white mt-[60pz] hover:text-[#8f259b]">
+        <p className="text-center text-white mt-[30px] hover:text-[#8f259b] cursor-pointer transition duration-300">
           © DEFI AI . All Rights Reserved 2024. Licensing
         </p>
       </div>
