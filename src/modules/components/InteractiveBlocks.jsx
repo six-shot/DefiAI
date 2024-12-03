@@ -5,6 +5,7 @@ import shield from "../../assets/shield.png";
 import Marquee from "react-fast-marquee";
 import { GiRocketThruster } from "react-icons/gi";
 import { VscGraph } from "react-icons/vsc";
+import About from "../feautures/about";
 const InteractiveBlocks = () => {
   const blockContainerRef = useRef(null);
   const blockSize = 70;
@@ -88,11 +89,10 @@ const InteractiveBlocks = () => {
             Welcome to DEFI AI
           </p>
           <h1 className="text-[50px] text-center leading-[52px] mt-6">
-            Unclock Potential with Cutting-Edge <br /> Machine Learning
-            Technologies
+            Transform Blockchain Simplicity with <br /> Advanced AI Solutions
           </h1>
           <p className="text-sm text-[#ffffff]/50 mt-4">
-            Comprehensive resources, tutorials, and real-world applications.
+            Effortless Blockchain Insights with AI-driven Solutions.
           </p>
         </div>
         <div className="grid grid-cols-3 gap-5 px-[150px] mt-[50px] max-w-[1440px] mx-auto">
@@ -256,6 +256,7 @@ const InteractiveBlocks = () => {
           </div>
         </div>
       </div>
+      <About />
     </div>
   );
 };

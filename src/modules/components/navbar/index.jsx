@@ -14,7 +14,7 @@ export default function Navbar() {
           <h5>Home</h5>
         </nav>
         <button className="bg-[#8f259b] px-5 h-[40px] text-sm rounded-full ">
-          Launch
+          Try now
         </button>
       </div>
     </div>
