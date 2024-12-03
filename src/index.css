@@ -14,14 +14,14 @@ body{
   top: 0;
   left: 0;
   width: 100vw;
-  height: 120vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
 #blocks {
   background-color: black;
   width: 105vw;
-  height: 120vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
