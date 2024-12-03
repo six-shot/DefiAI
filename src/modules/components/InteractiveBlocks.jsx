@@ -6,6 +6,7 @@ import Marquee from "react-fast-marquee";
 import { GiRocketThruster } from "react-icons/gi";
 import { VscGraph } from "react-icons/vsc";
 import About from "../feautures/about";
+import ComingSoon from "../feautures/comingsoon";
 const InteractiveBlocks = () => {
   const blockContainerRef = useRef(null);
   const blockSize = 70;
@@ -84,7 +85,7 @@ const InteractiveBlocks = () => {
         <div className="flex items-center justify-center">
           <Navbar />
         </div>
-        <div className="mt-[60px] flex flex-col items-center">
+        <div className="mt-[100px] flex flex-col items-center">
           <p className="px-6 h-[38px] border border-white/20 rounded-full flex justify-center items-center  text-xs">
             Welcome to DEFI AI
           </p>
@@ -257,6 +258,7 @@ const InteractiveBlocks = () => {
         </div>
       </div>
       <About />
+      <ComingSoon/>
     </div>
   );
 };

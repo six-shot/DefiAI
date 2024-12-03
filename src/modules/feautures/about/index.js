@@ -3,7 +3,7 @@ import about from "../../../assets/about.png"
 
 export default function About() {
   return (
-    <div className="flex items-center ">
+    <div className="flex items-center  mt-20">
       <img src={about} alt="about" />
       <div className="pl-20 text-white ">
         <h6>About DEFI AI</h6>
