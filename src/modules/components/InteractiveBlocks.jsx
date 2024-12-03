@@ -79,7 +79,7 @@ const InteractiveBlocks = () => {
   }, []);
 
   return (
-    <div className="blocks-container relative">
+    <div className="relative ">
       <div id="blocks" ref={blockContainerRef}></div>
       <div className="text-white content flex-col">
         <div className="flex items-center justify-center">
@@ -257,8 +257,7 @@ const InteractiveBlocks = () => {
           </div>
         </div>
       </div>
-      <About />
-      <ComingSoon/>
+     
     </div>
   );
 };
