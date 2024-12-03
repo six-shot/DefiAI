@@ -89,8 +89,8 @@ const InteractiveBlocks = () => {
           <p className="px-6 h-[38px] border border-white/20 rounded-full flex justify-center items-center  text-xs">
             Welcome to DEFI AI
           </p>
-          <h1 className="text-[50px] text-center leading-[52px] mt-6">
-            Transform Blockchain Simplicity with <br /> Advanced AI Solutions
+          <h1 className="md:text-[50px] text-[38px] text-center md:leading-[52px] leading-[45px] mt-6">
+            Transform Blockchain Simplicity with <br className="md:block hidden" /> Advanced AI Solutions
           </h1>
           <p className="text-sm text-[#ffffff]/50 mt-4">
             Effortless Blockchain Insights with AI-driven Solutions.
