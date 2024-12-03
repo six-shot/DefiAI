@@ -69,4 +69,51 @@ position:relative;
   z-index: 1000000000000;
 
 }
+.bg-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #8f259b -43.27%,
+    #8f259b -21.24%,
+    #9dedf000 12.19%,
+    #8d00ce 29.82%,
+    rgba(255, 0, 132) 51.94%,
+    rgba(255, 0, 132, 0.5) 90.29%
+  );
+  filter: blur(100px);
+}
+
+@property --bg-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
+  }
+}
+
+.btn {
+  animation: spin 2.5s infinite linear;
+
+  background: linear-gradient(
+        to bottom,
+        rgba(47, 40, 91, 0.95),
+        rgba(47, 40, 91, 0.95)
+      )
+      padding-box,
+    /* ends at inner border edges */
+      conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        rgba(191, 36, 36, 1) 0 0
+      )
+      border-box; /* extends to outer border edges */
+
+  border:4px solid transparent;
+
+  &:hover {
+    animation-play-state: running;
+  }
+}
 

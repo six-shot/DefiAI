@@ -118,7 +118,7 @@ const InteractiveBlocks = () => {
               </p>
             </div>
           </div>
-          <div className="relative col-span-1 bg-[#1c1c1c] p-5 rounded-[12px] md:h-full h-[210px] overflow-hidden">
+          <div className="relative col-span-1 bg-[#1c1c1c] p-5 rounded-[12px] md:h-full h-[250px] overflow-hidden">
             <div className="flex justify-between items-center">
               {" "}
               <h4 className="text-[24px]">Get gas fee</h4>

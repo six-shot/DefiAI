@@ -1,15 +1,22 @@
 import "./App.css";
-import Footer from "./modules/components/footer";
-import About from "./modules/feautures/about";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Home from "./modules/home";
+import Chat from "./pages/chat";
 
 function App() {
   return (
     <div>
-      <Home />
-      <About />
-     
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/chat" element={<Chat />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
