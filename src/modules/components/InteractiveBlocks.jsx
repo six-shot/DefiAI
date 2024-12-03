@@ -85,7 +85,7 @@ const InteractiveBlocks = () => {
         <div className="flex items-center justify-center">
           <Navbar />
         </div>
-        <div className="mt-[100px] flex flex-col items-center">
+        <div className="  md:px-0 px-5 mt-[100px] flex flex-col items-center">
           <p className="px-6 h-[38px] border border-white/20 rounded-full flex justify-center items-center  text-xs">
             Welcome to DEFI AI
           </p>
@@ -96,7 +96,7 @@ const InteractiveBlocks = () => {
             Effortless Blockchain Insights with AI-driven Solutions.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-5 px-[150px] mt-[50px] max-w-[1440px] mx-auto">
+        <div className=" px-5 grid md:grid-cols-3 grid-cols-1 gap-5 md:px-[150px] mt-[50px] max-w-[1440px] mx-auto">
           <div className="col-span-1 flex gap-5 flex-col">
             <div className="relative bg-[#1c1c1c] p-5 rounded-[12px] h-[250px] overflow-hidden ">
               <h4 className="text-[24px]">Swap</h4>
@@ -118,7 +118,7 @@ const InteractiveBlocks = () => {
               </p>
             </div>
           </div>
-          <div className="relative col-span-1 bg-[#1c1c1c] p-5 rounded-[12px] h-full overflow-hidden">
+          <div className="relative col-span-1 bg-[#1c1c1c] p-5 rounded-[12px] md:h-full h-[210px] overflow-hidden">
             <div className="flex justify-between items-center">
               {" "}
               <h4 className="text-[24px]">Get gas fee</h4>
