@@ -105,7 +105,7 @@ const InteractiveBlocks = () => {
               </p>
               <img
                 src={settings}
-                className="absolute -bottom-[40px] -right-[40px] w-[220px]"
+                className="absolute -bottom-[60px] -right-[40px] w-[220px]"
                 alt="settings"
               />
             </div>
