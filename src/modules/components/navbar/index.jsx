@@ -9,9 +9,9 @@ export default function Navbar() {
         </div>
         <nav className="flex gap-7 items-center text-sm">
           <h5>Home</h5>
-          <h5>Home</h5>
-          <h5>Home</h5>
-          <h5>Home</h5>
+          <h5>Feautures</h5>
+          <h5>About</h5>
+          <h5>Contact</h5>
         </nav>
         <button className="bg-[#8f259b] px-5 h-[40px] text-sm rounded-full ">
           Try now

@@ -9,9 +9,9 @@ export default function Footer() {
           <img className="w-[60px]" src={logo} alt="logo" />
           <nav className="flex gap-7 items-center text-sm text-white">
             <h5>Home</h5>
-            <h5>Home</h5>
-            <h5>Home</h5>
-            <h5>Home</h5>
+            <h5>Feautures</h5>
+            <h5>About</h5>
+            <h5>Contact</h5>
           </nav>
         </div>
         <p className="text-center text-white mt-[30px] hover:text-[#8f259b] cursor-pointer transition duration-300">
