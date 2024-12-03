@@ -130,10 +130,10 @@ const InteractiveBlocks = () => {
               incidunt ti.dipisicing elit. Ipsum incidunt ti.
             </p>
             <div className="absolute -bottom-[110px] -right-[110px]   ">
-              <div className="w-[400px] h-[400px] border border-[#8f259b] rounded-full p-6">
-                <div className="w-full h-full border border-[#8f259b] rounded-full p-6">
-                  <div className="w-full h-full border border-[#8f259b] rounded-full p-6">
-                    <div className="w-full h-full border border-[#8f259b] rounded-full p-6">
+              <div className="w-[400px] h-[400px] border border-[#ececec46] rounded-full p-6">
+                <div className="w-full h-full border border-[#ececec46] rounded-full p-6">
+                  <div className="w-full h-full border border-[#ececec46] rounded-full p-6">
+                    <div className="w-full h-full border border-[#ececec46] rounded-full p-6">
                       <img
                         src={shield}
                         className="absolute right- w-[200px]"
