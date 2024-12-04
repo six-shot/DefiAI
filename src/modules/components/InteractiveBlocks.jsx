@@ -5,8 +5,7 @@ import shield from "../../assets/shield.png";
 import Marquee from "react-fast-marquee";
 import { GiRocketThruster } from "react-icons/gi";
 import { VscGraph } from "react-icons/vsc";
-import About from "../feautures/about";
-import ComingSoon from "../feautures/comingsoon";
+
 const InteractiveBlocks = () => {
   const blockContainerRef = useRef(null);
   const blockSize = 70;

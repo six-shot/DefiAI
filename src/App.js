@@ -5,8 +5,9 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./modules/home";
+
 import Chat from "./pages/chat";
+import Home from "./pages/home";
 
 function App() {
   return (

@@ -2,6 +2,8 @@ import React from "react";
 import { IoSend } from "react-icons/io5";
 import logo from "../../assets/logo.png"
 import { GrConnectivity } from "react-icons/gr";
+import { CiMicrophoneOn } from "react-icons/ci";
+import { AiOutlineSend } from "react-icons/ai";
 
 export default function Chat() {
   return (
@@ -11,13 +13,7 @@ export default function Chat() {
           <div className="flex justify-between items-center mb-5">
             <div className="flex items-center gap-4">
               <button className="bg-[#8f259b] px-6 text-white h-[43px] rounded-[8px]">
-                Chat
-              </button>
-              <button className=" px-6 text-white/50 h-[43px] rounded-[8px]">
-                Modules
-              </button>
-              <button className=" px-6 text-white/50 h-[43px] rounded-[8px]">
-                Prompts
+                Delete Chat History
               </button>
             </div>
             <img className="w-[50px]" src={logo} alt="logo" />
@@ -46,10 +42,12 @@ export default function Chat() {
               type="text"
               placeholder="Ask me Anything."
             />
-            <IoSend className="text-[#8f259b] text-[25px]" />
+            <div className="flex items-center gap-5">
+              <CiMicrophoneOn className="text-[#8f259b] text-[25px]" />
+              <AiOutlineSend className="text-[#8f259b] text-[25px]" />
+            </div>
           </div>
         </div>
       </div>
     </div>
-  );
-}
+  );}
