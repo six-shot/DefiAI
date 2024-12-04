@@ -5,7 +5,7 @@ export default function Feauture() {
   return (
     <div className="max-w-[1440px] mx-auto">
       <div className="grid md:grid-cols-2 grid-cols-1  flex-col md:gap-0  gap-8 items-center  mt-20 mb-10">
-        <div className=" md:px-0 px-5 text-white  md:order-first order-last">
+        <div className=" px-5 text-white  md:order-first order-last">
           
           <h2 className="text-[38px] leading-[45px] mt-2">
             Voice feauture: <br className="md:block hidden " /> Interact with the AI <br className="md:block hidden " /> With your voice

@@ -9,7 +9,7 @@ export default function About() {
           {" "}
           <img src={about} alt="about" />
         </div>
-        <div className="md:pl-20 md:px-0 px-5 text-white ">
+        <div className="md:pl-20 px-5 text-white ">
           <h6>About DEFI AI</h6>
           <h2 className="text-[38px] leading-[45px] mt-2">
             Unlock the Future: <br className="md:block hidden " /> Experience

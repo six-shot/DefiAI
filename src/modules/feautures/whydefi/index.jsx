@@ -4,7 +4,7 @@ import { FaRobot } from 'react-icons/fa';
 export default function WhyDefi() {
   return (
     <div className="max-w-[1440px] mx-auto py-[100px]">
-      <div className="grid md:grid-cols-2 grid-cols-1m md:px-0 px-5 text-white">
+      <div className="grid md:grid-cols-2 grid-cols-1m px-5 text-white">
         <div className="col-span-1">
           <div className="flex justify-between md:gap-0 gap-4 h-full flex-col">
             <div>
